@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart-bg"></div>
+
+    <div class="container">
+        <div id="ask-section">
+            <img id="main-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3R5Y3R4eGZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute Bear">
+            <h1>Will you be my Valentine?</h1>
+            <div class="buttons">
+                <button id="yes-btn">Yes</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+
+        <div id="success-section" class="hidden">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6bjR4dzR4dzR4dzR4dzR4dzR4dzR4dzR4dzR4dzR4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/T86huuBfbdN69324hI/giphy.gif" alt="Happy Dance">
+            <h1>Yay!!! I knew you'd say yes! ❤️</h1>
+            
+            <div class="photo-gallery">
+                <div class="polaroid">
+                    <img src="vivian1.jpg" alt="Vivian 1">
+                    <p>My Favorite Smile</p>
+                </div>
+                <div class="polaroid">
+                    <img src="vivian2.jpg" alt="Vivian 2">
+                    <p>Our Best Memory</p>
+                </div>
+            </div>
+            <div id="typewriter" class="special-message"></div>
+        </div>
+    </div>
+
+    <button id="music-toggle">🎵 Play music for Vivian</button>
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
